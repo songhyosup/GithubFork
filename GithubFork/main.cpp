@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+void multi(int a, int b){
+	printf("%d x %d = %d\n", a, b, a * b);
+	return;
+}
 
-	printf("%d x %d = %d\n", 2, 5, 2 * 5);
-	printf("%d x %d = %d\n", 3, 6, 3 * 6);
-	printf("%d x %d = %d\n", 4, 8, 4 * 8);
+int main(void) {
+	multi(2,5);
+	multi(3,6);
+	multi(4,8);
 
 	printf("%f / %f = %f\n", 1.0, 3.0, 1.0 / 3.0);
 	printf("%f / %f = %f\n", 5.0, 4.0, 5.0 / 4.0);
