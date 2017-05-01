@@ -5,15 +5,20 @@ void multi(int a, int b){
 	printf("%d x %d = %d\n", a, b, a * b);
 	return;
 }
+  
+  void Divide(float a, float b)
+{
+printf("%f / %f = %f\n", a, b, a / b);
+}
 
 int main(void) {
 	multi(2,5);
 	multi(3,6);
 	multi(4,8);
 
-	printf("%f / %f = %f\n", 1.0, 3.0, 1.0 / 3.0);
-	printf("%f / %f = %f\n", 5.0, 4.0, 5.0 / 4.0);
-	printf("%f / %f = %f\n", 7.0, 6.0, 7.0 / 6.0);
+	Divide(1,3);
+  Divide(5,4);
+	Divide(7,6);
 
 	printf("%f ^ %f = %f\n", 1.0, 3.0, pow(1.0, 3.0));
 	printf("%f ^ %f = %f\n", 2.0, 7.0, pow(2.0, 7.0));
