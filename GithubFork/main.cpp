@@ -3,6 +3,7 @@ using namespace std;
 
 void fow(float n1, float n2) {
 	printf("%f ^ %f = %f\n", n1, n2, pow(n1, n2));
+	return 0;
 }
 
 int main(void) {
